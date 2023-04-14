@@ -1,0 +1,16 @@
+PODS:
+  - SmallEye (0.0.1)
+
+DEPENDENCIES:
+  - SmallEye (from `../`)
+
+EXTERNAL SOURCES:
+  SmallEye:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SmallEye: 741c2618eb77967e7e379fa38c66afb5f3318bdb
+
+PODFILE CHECKSUM: 90d54c7c4a992b1cb2fb8fc05fe4bb8440b2ed1f
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,28 @@
+{
+  "name": "SmallEye",
+  "version": "0.0.1",
+  "summary": "SmallEye",
+  "description": "磁盘浏览器",
+  "homepage": "https://git.wemomo.com/fe.123some/SmallEye",
+  "license": {
+    "type": "NONE"
+  },
+  "authors": {
+    "song.meng": "song.meng@immomo.com"
+  },
+  "source": {
+    "git": "https://git.wemomo.com/fe.123some/SmallEye",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "prefix_header_file": false,
+  "module_map": "SmallEye/module.modulemap",
+  "resources": "SmallEye/resource/*",
+  "source_files": "SmallEye/*.{h,m}",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ]
+}

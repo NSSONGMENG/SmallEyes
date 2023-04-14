@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0239780FB52CB8FEDCD997DAEF1F785E /* SmallEyeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 155751F6A5FE343616726D53E1EB81EA /* SmallEyeManager.m */; };
+		0601F1ABC287A259DB47E872716C51F8 /* SmallEyeTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 70BB88C6E667C1F69A6D45A057C98812 /* SmallEyeTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8DFB159C15830C59519FD86D659A100C /* SmallEyeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F84A5650079F51B7282ADF79FC0232C1 /* SmallEyeTableViewController.m */; };
+		A47432F7B45C5CF40B80FB6D96519274 /* SmallEye.h in Headers */ = {isa = PBXBuildFile; fileRef = 9674F31397BF8F6AAB5107B937B21144 /* SmallEye.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DFC53C6EFBF1C5AB331C306E1A0DAC7D /* SmallEyeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A9FA4DF5F13DF76BFBB6BB27C142E0E4 /* SmallEyeManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE2540F61A3E6A3FACE7022E70D4D507 /* SmallEye-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E58C05C6D42A68221B9ACB9C138B70A /* SmallEye-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E58C05C6D42A68221B9ACB9C138B70A /* SmallEye-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SmallEye-dummy.m"; sourceTree = "<group>"; };
+		155751F6A5FE343616726D53E1EB81EA /* SmallEyeManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SmallEyeManager.m; path = SmallEye/SmallEyeManager.m; sourceTree = "<group>"; };
+		447EC79E9CCF0F37F376CFD22EC4BF75 /* SmallEye */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = SmallEye; path = libSmallEye.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D8D6A9923E3459FAD96A85529E87F9 /* SmallEye.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SmallEye.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		70BB88C6E667C1F69A6D45A057C98812 /* SmallEyeTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmallEyeTableViewController.h; path = SmallEye/SmallEyeTableViewController.h; sourceTree = "<group>"; };
+		88AD8E212F1E94F62F35F24439BC2DEE /* SmallEye.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SmallEye.debug.xcconfig; sourceTree = "<group>"; };
+		8C9C5752C7ED91C6A586CE57CA5D8AC0 /* SmallEyeNext.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = SmallEyeNext.png; path = SmallEye/resource/SmallEyeNext.png; sourceTree = "<group>"; };
+		9674F31397BF8F6AAB5107B937B21144 /* SmallEye.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmallEye.h; path = SmallEye/SmallEye.h; sourceTree = "<group>"; };
+		A9FA4DF5F13DF76BFBB6BB27C142E0E4 /* SmallEyeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmallEyeManager.h; path = SmallEye/SmallEyeManager.h; sourceTree = "<group>"; };
+		D421AE4A047CC605BCC40EE7215A9020 /* SmallEye.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SmallEye.release.xcconfig; sourceTree = "<group>"; };
+		F4D2582913A97506E7793063C1DBBD92 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = module.modulemap; path = SmallEye/module.modulemap; sourceTree = "<group>"; };
+		F84A5650079F51B7282ADF79FC0232C1 /* SmallEyeTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SmallEyeTableViewController.m; path = SmallEye/SmallEyeTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		464A597EB503827804B02C11288569AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A795BA2C8D27E6E94B6877C8AA7C51D /* SmallEye */ = {
+			isa = PBXGroup;
+			children = (
+				9674F31397BF8F6AAB5107B937B21144 /* SmallEye.h */,
+				A9FA4DF5F13DF76BFBB6BB27C142E0E4 /* SmallEyeManager.h */,
+				155751F6A5FE343616726D53E1EB81EA /* SmallEyeManager.m */,
+				8C9C5752C7ED91C6A586CE57CA5D8AC0 /* SmallEyeNext.png */,
+				70BB88C6E667C1F69A6D45A057C98812 /* SmallEyeTableViewController.h */,
+				F84A5650079F51B7282ADF79FC0232C1 /* SmallEyeTableViewController.m */,
+				8607CCD022FEA42DD8645110D9F1AA18 /* Pod */,
+				855140BD2545A7AE1382FCB2CFC3E7A0 /* Support Files */,
+			);
+			name = SmallEye;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1EE7B46F8D0592F664A0AC298424EF39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		549B7D10561F06C4A7C638599D3A25C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				447EC79E9CCF0F37F376CFD22EC4BF75 /* SmallEye */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		855140BD2545A7AE1382FCB2CFC3E7A0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E58C05C6D42A68221B9ACB9C138B70A /* SmallEye-dummy.m */,
+				88AD8E212F1E94F62F35F24439BC2DEE /* SmallEye.debug.xcconfig */,
+				D421AE4A047CC605BCC40EE7215A9020 /* SmallEye.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "SmallEyeDemo/Pods/Target Support Files/SmallEye";
+			sourceTree = "<group>";
+		};
+		8607CCD022FEA42DD8645110D9F1AA18 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F4D2582913A97506E7793063C1DBBD92 /* module.modulemap */,
+				63D8D6A9923E3459FAD96A85529E87F9 /* SmallEye.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9590E37DEE9C0ECCA4D4FE21931C5078 = {
+			isa = PBXGroup;
+			children = (
+				1EE7B46F8D0592F664A0AC298424EF39 /* Frameworks */,
+				549B7D10561F06C4A7C638599D3A25C8 /* Products */,
+				0A795BA2C8D27E6E94B6877C8AA7C51D /* SmallEye */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		286CAE66111D31F4EFCD2E9722B48C1A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47432F7B45C5CF40B80FB6D96519274 /* SmallEye.h in Headers */,
+				DFC53C6EFBF1C5AB331C306E1A0DAC7D /* SmallEyeManager.h in Headers */,
+				0601F1ABC287A259DB47E872716C51F8 /* SmallEyeTableViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C1B9904D92D32A7588DF260B0CDBA083 /* SmallEye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20E9EDFFB9C633DB1CEA4537D87E4439 /* Build configuration list for PBXNativeTarget "SmallEye" */;
+			buildPhases = (
+				286CAE66111D31F4EFCD2E9722B48C1A /* Headers */,
+				9B172E744F8A2E8F380FA4F1162761DF /* Sources */,
+				464A597EB503827804B02C11288569AD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmallEye;
+			productName = SmallEye;
+			productReference = 447EC79E9CCF0F37F376CFD22EC4BF75 /* SmallEye */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		912A66578BAED97A671F28A592D9CC1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 683DEAC401B96EC13D9194284B46CB53 /* Build configuration list for PBXProject "SmallEye" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 9590E37DEE9C0ECCA4D4FE21931C5078;
+			productRefGroup = 549B7D10561F06C4A7C638599D3A25C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1B9904D92D32A7588DF260B0CDBA083 /* SmallEye */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B172E744F8A2E8F380FA4F1162761DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2540F61A3E6A3FACE7022E70D4D507 /* SmallEye-dummy.m in Sources */,
+				0239780FB52CB8FEDCD997DAEF1F785E /* SmallEyeManager.m in Sources */,
+				8DFB159C15830C59519FD86D659A100C /* SmallEyeTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1C96DA288D378D3690DD52FE18602844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2817BEB7ECC2E8F4F827CE48FEF130BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AE84BE636E9A75BE4DCD1CC142500219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88AD8E212F1E94F62F35F24439BC2DEE /* SmallEye.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SmallEye;
+				PRODUCT_NAME = SmallEye;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C87A480BCC8B37973D15CBE2A4EBD8A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D421AE4A047CC605BCC40EE7215A9020 /* SmallEye.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SmallEye;
+				PRODUCT_NAME = SmallEye;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20E9EDFFB9C633DB1CEA4537D87E4439 /* Build configuration list for PBXNativeTarget "SmallEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE84BE636E9A75BE4DCD1CC142500219 /* Debug */,
+				C87A480BCC8B37973D15CBE2A4EBD8A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		683DEAC401B96EC13D9194284B46CB53 /* Build configuration list for PBXProject "SmallEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2817BEB7ECC2E8F4F827CE48FEF130BB /* Debug */,
+				1C96DA288D378D3690DD52FE18602844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 912A66578BAED97A671F28A592D9CC1D /* Project object */;
+}
