@@ -22,6 +22,8 @@ pod 'SmallEye'
 使用：
 
 ```OC
+#import <SmallEye/SmallEyeTableViewController.h>
+
 // presenter
 [SmallEyeTableViewController openPathWithNavigationController:self  // self为UIViewController
                                                          path:path
